@@ -1,0 +1,1121 @@
+{
+    "PostItineraryRequest": {
+        "OTAMsg": {
+            "OTA_TravelItineraryRS": {
+                "@SourceOrigin": "AXU",
+                "@TimeStamp": "2022-01-25T20:07:11",
+                "@TransactionIdentifier": "3098",
+                "@Version": "3.9",
+                "TripRefs": {
+                    "@Sanction": "false",
+                    "@TripCreationDateTime": "20220125T1401",
+                    "@TripId": "{{amexTripId}}",
+                    "@TripVersion": "1",
+                    "TripRef": [
+                        {
+                            "@BookingRef": "CQMLOW",
+                            "@CreationDateTime": "20220125T1401",
+                            "@Source": "SAB",
+                            "@SourceId": "1",
+                            "#text": ""
+                        }
+                    ]
+                },
+                "TripTriggerChange": {
+                    "AccountProfileTrigger": {
+                        "AccountNo": [
+                            "True"
+                        ],
+                        "ClientID": [
+                            "True"
+                        ]
+                    },
+                    "CustomerInfosTrigger": "True",
+                    "StoredFareListTrigger": {
+                        "StoredFareList": "True"
+                    },
+                    "ItineraryTrigger": {
+                        "AirTriggerChange": [
+                            {
+                                "LegStartTerm": [
+                                    "True"
+                                ],
+                                "Cabin": [
+                                    "True"
+                                ],
+                                "Equipment": [
+                                    "True"
+                                ],
+                                "SpecialRequest": [
+                                    "True"
+                                ],
+                                "ArrDate": [
+                                    "True"
+                                ],
+                                "LegDep": [
+                                    "True"
+                                ],
+                                "EndTerminal": [
+                                    "True"
+                                ],
+                                "LegDepDate": [
+                                    "True"
+                                ],
+                                "LegArrDate": [
+                                    "True"
+                                ],
+                                "LegArr": [
+                                    "True"
+                                ],
+                                "StopQuantity": [
+                                    "True"
+                                ],
+                                "StartTerminal": [
+                                    "True"
+                                ],
+                                "Seat": [
+                                    "True"
+                                ],
+                                "GDSStatus": [
+                                    "True"
+                                ],
+                                "LegEndterm": [
+                                    "True"
+                                ],
+                                "StopLocation": [
+                                    "True"
+                                ]
+                            }
+                        ]
+                    },
+                    "MIRemarkListTrigger": "True",
+                    "InvoiceRemarkListTrigger": {
+                        "InvoiceRemarkList": "True"
+                    }
+                },
+                "AuthorizationEvent": {
+                    "TravelerEmail": "JACKIE.BENNINGTON@AMEXGBT.COM"
+                },
+                "FareInformation": {
+                    "AirTicketFareInformation": {
+                        "PreTicketTotalFare": {
+                            "@currency": "USD",
+                            "@totalAmount": "2497.21",
+                            "#text": ""
+                        },
+                        "PreTicketLowFare": {
+                            "@currency": "USD",
+                            "@totalAmount": "120.0",
+                            "#text": ""
+                        }
+                    }
+                },
+                "Success": "",
+                "TravelItinerary": {
+                    "Ticketing": {
+                        "@ProviderToken": "001",
+                        "Text": "TAW\/31JAN"
+                    },
+                    "AccessHistory": {
+                        "@PNRChanges": "1",
+                        "Created": {
+                            "@Time": "20220125T1401",
+                            "Agent": {
+                                "@AgencyId": "F7X4",
+                                "@AgentId": "AJC",
+                                "@AtlasAgentId": "JC",
+                                "#text": ""
+                            },
+                            "ControlPCC": "F7X4",
+                            "BookingBranch": "00000",
+                            "ISOS": "840"
+                        },
+                        "LastModified": {
+                            "@Time": "20220125T1401",
+                            "Agent": {
+                                "@AgencyId": "F7X4",
+                                "@AgentId": "AJC",
+                                "#text": ""
+                            }
+                        },
+                        "OnHold": "N",
+                        "VIP": "FALSE",
+                        "LastSegModified": {
+                            "@Time": "20220125T1401",
+                            "Agent": {
+                                "@AgencyId": "F7X4",
+                                "@AgentId": "AJC",
+                                "#text": ""
+                            }
+                        },
+                        "DataPull": {
+                            "@Date": "20220125T1407",
+                            "@PCC": "",
+                            "@Queue": "0",
+                            "#text": ""
+                        },
+                        "Accessed": {
+                            "@AgencyId": "F7X4",
+                            "#text": ""
+                        }
+                    },
+                    "AccountProfile": {
+                        "AccountNo": "00000376652",
+                        "ClientId": "UATD04",
+                        "ClientName": "UAT DATA TEST                 ",
+                        "DefaultCurrency": "USD",
+                        "ReportingCurrency": "USD",
+                        "GSI": {
+                            "@Enrollment": "false",
+                            "@Update": "false",
+                            "#text": ""
+                        },
+                        "LowFareLocation": "COMPARE FARE 1",
+                        "FullFareLocation": "COMPARE FARE 2",
+                        "WebClient": "false",
+                        "EmailClient": "false",
+                        "CustomFieldList": {
+                            "CustomField": [
+                                {
+                                    "@Class_Type": "S",
+                                    "@Column_Id": "1",
+                                    "@From": "1",
+                                    "@Name": "custom_field_1",
+                                    "@ShowColumnAs": "CASE CODE 1",
+                                    "@To": "33",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "0",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "2",
+                                    "@From": "1",
+                                    "@Name": "custom_field_2",
+                                    "@ShowColumnAs": "CASE CODE 2",
+                                    "@To": "30",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "3",
+                                    "@Udid_Type": "U",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "3",
+                                    "@From": "1",
+                                    "@Name": "custom_field_3",
+                                    "@ShowColumnAs": "CASE CODE 3",
+                                    "@To": "30",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "4",
+                                    "@Udid_Type": "U",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "4",
+                                    "@From": "1",
+                                    "@Name": "custom_field_4",
+                                    "@ShowColumnAs": "CORP RECRUIT RECRUIT EMP",
+                                    "@To": "33",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "1",
+                                    "@Udid_Type": "S",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "5",
+                                    "@From": "1",
+                                    "@Name": "custom_field_5",
+                                    "@ShowColumnAs": "HRID",
+                                    "@To": "20",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "9",
+                                    "@Udid_Type": "S",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "6",
+                                    "@From": "1",
+                                    "@Name": "custom_field_6",
+                                    "@ShowColumnAs": "LIMO VENDOR",
+                                    "@To": "40",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "1",
+                                    "@Udid_Type": "U",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "7",
+                                    "@From": "1",
+                                    "@Name": "custom_field_7",
+                                    "@ShowColumnAs": "EMAIL TRAVEL REQUEST",
+                                    "@To": "5",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "3",
+                                    "@Udid_Type": "S",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "8",
+                                    "@From": "1",
+                                    "@Name": "custom_field_8",
+                                    "@ShowColumnAs": "STATUS UPGRADE OPTIONAL",
+                                    "@To": "13",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "2",
+                                    "@Udid_Type": "S",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "12",
+                                    "@From": "1",
+                                    "@Name": "custom_field_12",
+                                    "@ShowColumnAs": "BUSINESS COHORT",
+                                    "@To": "40",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "8",
+                                    "@Udid_Type": "U",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "14",
+                                    "@From": "1",
+                                    "@Name": "custom_field_14",
+                                    "@ShowColumnAs": "TRAVELER EMAIL",
+                                    "@To": "40",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "4",
+                                    "@Udid_Type": "S",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "U",
+                                    "@Column_Id": "20",
+                                    "@From": "1",
+                                    "@Name": "custom_field_20",
+                                    "@ShowColumnAs": "MEETING CODE",
+                                    "@To": "1",
+                                    "@Type": "POS",
+                                    "@Udid_Number": "8",
+                                    "@Udid_Type": "S",
+                                    "#text": ""
+                                }, {
+                                    "@Class_Type": "S",
+                                    "@Column_Id": "41",
+                                    "@From": "1",
+                                    "@Name": "GDD_custom_field_1",
+                                    "@ShowColumnAs": "BILLING CODE",
+                                    "@To": "32",
+                                    "@Udid_Number": "0",
+                                    "#text": ""
+                                }
+                            ],
+                            "CustomFieldValue": [
+                                {
+                                    "@CustomFieldName": "custom_field_1",
+                                    "@PaxRef": "1.01",
+                                    "@ShowColumnAs": "CASE CODE 1",
+                                    "#text": "4-----------8495"
+                                }, {
+                                    "@CustomFieldName": "GDD_custom_field_1",
+                                    "@PaxRef": "1.01",
+                                    "@ShowColumnAs": "BILLING CODE",
+                                    "#text": "4-----------8495"
+                                }
+                            ]
+                        },
+                        "GSIRemarkList": "",
+                        "ClientGeneralRemarkList": {
+                            "Remark": [
+                                {
+                                    "@Lines": "ALL  ",
+                                    "@Prefix": "A",
+                                    "#text": "Test"
+                                }
+                            ]
+                        }
+                    },
+                    "CustomerInfos": {
+                        "CustomerInfo": [
+                            {
+                                "Customer": {
+                                    "PersonName": [
+                                        {
+                                            "@ConnectProfileId": "199175943",
+                                            "@GBTUserId": "f67230ab-13ec-4b36-9938-5fefd4abf7ee",
+                                            "@KnowMeId": "1619673",
+                                            "@ProviderPaxId": "1.01",
+                                            "@TravelerId": "1619673",
+                                            "@Type": "ADT",
+                                            "@bestemail": "{{amexEmail}}",
+                                            "GivenName": [
+                                                "JACKIE"
+                                            ],
+                                            "Surname": "BENNINGTON",
+                                            "Remark": "4-----------8495"
+                                        },
+                                        {
+                                            "@ConnectProfileId": "3213213213",
+                                            "@GBTUserId": "f67230ab-13ec-4b36-9938-5fefd4a32323e",
+                                            "@KnowMeId": "1619671111",
+                                            "@ProviderPaxId": "1.01",
+                                            "@TravelerId": "123123",
+                                            "@Type": "ADT",
+                                            "@bestemail": "aaaaaa.bbbbbbb@AMEXGBT.COM",
+                                            "GivenName": [
+                                                "aaaaa"
+                                            ],
+                                            "Surname": "bbbbb",
+                                            "Remark": "4-----------8495aa"
+                                        }
+                                    ],
+                                    "Email": [
+                                        {
+                                            "@GBTUserId": "f67230ab-13ec-4b36-9938-5fefd4abf7ee",
+                                            "@RPH": "1",
+                                            "#text": "JACKIE.BENNINGTON@AMEXGBT.COM"
+                                        }
+                                    ],
+                                    "PTExempt": "N",
+                                    "CitizenCountryName": [
+                                        {
+                                            "@Code": "GB",
+                                            "#text": ""
+                                        }
+                                    ]
+                                },
+                                "ProfileRef": {
+                                    "@AccountNumber": "00000376652",
+                                    "@ClientID": "UATD04",
+                                    "CompanyName": {
+                                        "@CompanyShortName": "UAT DATA TEST",
+                                        "#text": ""
+                                    }
+                                },
+                                "AgencyAcctNumber": {
+                                    "@AccountNumber": "00000376652",
+                                    "@ClientID": "UATD04",
+                                    "CompanyName": {
+                                        "@CompanyShortName": "UAT DATA TEST",
+                                        "#text": ""
+                                    }
+                                },
+                                "CorporateEmailList": ""
+                            }
+                        ]
+                    },
+                    "TravelCost": {
+                        "StoredFareList": {
+                            "@LowFareTotal": "0",
+                            "StoredFare": [
+                                {
+                                    "@Active": "true",
+                                    "@DisplayOnly": "false",
+                                    "@FareId": "1",
+                                    "@Manual": "false",
+                                    "@Status": "ACTIVE",
+                                    "@Ticketed": "false",
+                                    "PassengerList": {
+                                        "Passenger": [
+                                            {
+                                                "@Ticketed": "false",
+                                                "PaxRef": "1.01",
+                                                "Name": "BENNINGTON\/JACKIE"
+                                            }
+                                        ]
+                                    },
+                                    "StoredFareInstruction": "WP",
+                                    "StoredFareData": {
+                                        "ValidatingCarrier": "UA",
+                                        "PaxType": {
+                                            "@Quantity": "01",
+                                            "#text": "ADT"
+                                        },
+                                        "EndorsementText": [
+                                            {
+                                                "@Type": "System",
+                                                "#text": "REFUNDABLE"
+                                            }
+                                        ],
+                                        "TaxExempt": "false",
+                                        "PublishedFare": {
+                                            "@AccountCodeOnlyIndicator": "false",
+                                            "FareSegOverride": [
+                                                {
+                                                    "SegList": {
+                                                        "SegRef": [
+                                                            {
+                                                                "@SegNo": "1",
+                                                                "#text": ""
+                                                            }, {
+                                                                "@SegNo": "2",
+                                                                "#text": ""
+                                                            }
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "FareSummary": {
+                                        "@CurrencyCode": "USD",
+                                        "@IssueDate": "20220125",
+                                        "TotalFare": {
+                                            "@Amount": "2497.21",
+                                            "@CurrencyCode": "USD",
+                                            "#text": ""
+                                        },
+                                        "BaseFare": {
+                                            "@Amount": "2295.82",
+                                            "@CurrencyCode": "USD",
+                                            "#text": ""
+                                        },
+                                        "TotalTax": {
+                                            "@Amount": "201.39",
+                                            "@CurrencyCode": "USD",
+                                            "@TaxCode": "XT",
+                                            "#text": ""
+                                        },
+                                        "TaxDetail": {
+                                            "Tax": [
+                                                {
+                                                    "@Amount": "172.19",
+                                                    "@Code": "US",
+                                                    "#text": ""
+                                                }, {
+                                                    "@Amount": "9.00",
+                                                    "@Code": "ZP",
+                                                    "#text": ""
+                                                }, {
+                                                    "@Amount": "11.20",
+                                                    "@Code": "AY",
+                                                    "#text": ""
+                                                }, {
+                                                    "@Amount": "9.00",
+                                                    "@Code": "XF",
+                                                    "#text": ""
+                                                }
+                                            ]
+                                        },
+                                        "RulesSummary": {
+                                            "Refundable": "true",
+                                            "Expired": "true",
+                                            "LText": {
+                                                "TL": [
+                                                    "REFUNDABLE"
+                                                ]
+                                            }
+                                        },
+                                        "ValidatingCarrier": {
+                                            "@AirlineCode": "UA",
+                                            "#text": ""
+                                        }
+                                    },
+                                    "FareConstruction": {
+                                        "FareConstructText": "HOU UA DEN1147.91UA HOU1147.91USD2295.82END ZPIAHDEN XFIAH4.5DEN4.5",
+                                        "FareConstructDetail": [
+                                            {
+                                                "@CurrencyCode": "USD",
+                                                "@FareSource": "ATPC",
+                                                "@ValidStoredFare": "true",
+                                                "FareComponent": [
+                                                    {
+                                                        "@AirlineCode": "UA",
+                                                        "@BaseFare": "1147.91",
+                                                        "@FareBasisCode": "YAA0AFEY",
+                                                        "@Negotiated": "false",
+                                                        "FareSeg": [
+                                                            {
+                                                                "@AirlineCode": "UA",
+                                                                "@BookingClass": "Y",
+                                                                "@Connection": "O",
+                                                                "@EndAirportCode": "DEN",
+                                                                "@EndTime": "20220315T1330",
+                                                                "@FltNo": "1649",
+                                                                "@SegFlag": "Y",
+                                                                "@SegToken": "UA1649YIAHDEN20220315T1155",
+                                                                "@SegmentNumber": "1",
+                                                                "@StartAirportCode": "IAH",
+                                                                "@StartTime": "20220315T1155",
+                                                                "@Status": "OK",
+                                                                "ValidityDates": {
+                                                                    "NotValidAfter": "20230315"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }, {
+                                                        "@AirlineCode": "UA",
+                                                        "@BaseFare": "1147.91",
+                                                        "@FareBasisCode": "YAA0AFEY",
+                                                        "@Negotiated": "false",
+                                                        "FareSeg": [
+                                                            {
+                                                                "@AirlineCode": "UA",
+                                                                "@BookingClass": "Y",
+                                                                "@Connection": "O",
+                                                                "@EndAirportCode": "IAH",
+                                                                "@EndTime": "20220322T1710",
+                                                                "@FltNo": "313",
+                                                                "@SegFlag": "Y",
+                                                                "@SegToken": "UA313YDENIAH20220322T1345",
+                                                                "@SegmentNumber": "2",
+                                                                "@StartAirportCode": "DEN",
+                                                                "@StartTime": "20220322T1345",
+                                                                "@Status": "OK",
+                                                                "ValidityDates": {
+                                                                    "NotValidAfter": "20230315"
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ],
+                                        "TagLines": [
+                                            "VALIDATING CARRIER - UA", "REFUNDABLE"
+                                        ]
+                                    },
+                                    "PricingPCC": "F7X4",
+                                    "AgentSine": "JC"
+                                }
+                            ]
+                        }
+                    },
+                    "ItineraryInfo": {
+                        "ReservationItems": {
+                            "Item": [
+                                {
+                                    "Air": {
+                                        "@RPH": "0001",
+                                        "@Sanction": "None",
+                                        "@SegType": "Air",
+                                        "@Source": "Sabre",
+                                        "@SourceId": "1",
+                                        "Reservation": {
+                                            "@ArrivalDateTime": "20220315T1330",
+                                            "@ConfirmationNumber": "NVDYZE",
+                                            "@ConfirmingSystemRef": "DCUA",
+                                            "@ConnectionDuration": "02.35",
+                                            "@DepartureDateTime": "20220315T1155",
+                                            "@DomIntlAgencyInd": "D",
+                                            "@DomIntlInd": "D",
+                                            "@E_TicketEligibility": "true",
+                                            "@EndCityTimeZone": "America\/Denver",
+                                            "@EndDST": "true",
+                                            "@EndGMTTime": "20220315T1930",
+                                            "@EndTimeZone": "MDT",
+                                            "@EquipmentName": "Boeing 737-900",
+                                            "@FlightNumber": "1649",
+                                            "@MilesFlown": "863",
+                                            "@NumberInParty": "1",
+                                            "@ProviderToken": "1",
+                                            "@ResBookDesigCode": "Y",
+                                            "@SegToken": "UA1649YIAHDEN20220315T1155",
+                                            "@StartCityTimeZone": "America\/Chicago",
+                                            "@StartDST": "true",
+                                            "@StartGMTTime": "20220315T1655",
+                                            "@StartTerminal": "TERMINAL C",
+                                            "@StartTimeZone": "CDT",
+                                            "@Status": "Y",
+                                            "@StatusCode": "HK",
+                                            "@StopQuantity": "0",
+                                            "DepartureAirport": {
+                                                "@LocationCode": "IAH",
+                                                "#text": ""
+                                            },
+                                            "ArrivalAirport": {
+                                                "@LocationCode": "DEN",
+                                                "#text": ""
+                                            },
+                                            "OperatingAirline": {
+                                                "@Code": "UA",
+                                                "@CompanyShortName": "UNITED AIRLINES",
+                                                "@FlightNumber": "1649",
+                                                "#text": ""
+                                            },
+                                            "MarketingAirline": {
+                                                "@Code": "UA",
+                                                "@CompanyShortName": "UNITED AIRLINES",
+                                                "#text": ""
+                                            },
+                                            "ConnectionInfo": {
+                                                "@Ind": "O",
+                                                "#text": ""
+                                            },
+                                            "FlightLeg": [
+                                                {
+                                                    "@DayOfWeek": "2",
+                                                    "@EndAirportCode": "DEN",
+                                                    "@EndAirportName": "Denver Intl Apt\/\/Denver\/\/CO\/\/US",
+                                                    "@EndGMTTime": "20220315T1930",
+                                                    "@EndTime": "20220315T1330",
+                                                    "@StartAirportCode": "IAH",
+                                                    "@StartAirportName": "Houston George Bush Intercont.\/\/Houston\/\/TX\/\/US",
+                                                    "@StartGMTTime": "20220315T1655",
+                                                    "@StartTime": "20220315T1155",
+                                                    "Details": {
+                                                        "@Equip": "739",
+                                                        "@EquipmentName": "Boeing 737-900",
+                                                        "@FltDuration": "02.35",
+                                                        "@MilesFlown": "863",
+                                                        "@Smoking": "false",
+                                                        "@SpecialMeal": "false",
+                                                        "@StartTerminal": "TERMINAL C",
+                                                        "@StartTerminalCode": "C",
+                                                        "#text": ""
+                                                    },
+                                                    "Meals": {
+                                                        "@Services": "Food and drinks to purchase",
+                                                        "Service": [
+                                                            {
+                                                                "@Code": "G",
+                                                                "@Name": "Food and drinks to purchase",
+                                                                "#text": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    "OperatingAirline": {
+                                                        "@AirlineCode": "UA",
+                                                        "@AirlineName": "UNITED AIRLINES",
+                                                        "@FltNo": "1649",
+                                                        "#text": ""
+                                                    },
+                                                    "StartAirportLocation": {
+                                                        "@Latitude": "29.984444",
+                                                        "@Longitude": "-95.341389",
+                                                        "#text": ""
+                                                    },
+                                                    "EndAirportLocation": {
+                                                        "@Latitude": "39.861667",
+                                                        "@Longitude": "-104.673056",
+                                                        "#text": ""
+                                                    }
+                                                }
+                                            ],
+                                            "BookingClassAvails": [
+                                                {
+                                                    "@CabinType": "ECONOMY",
+                                                    "BookingClassAvail": [
+                                                        {
+                                                            "@ResBookDesigCode": "Y",
+                                                            "@ResBookDesigStatusCode": "Y",
+                                                            "#text": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "DetailedReservation": {
+                                            "Ticketing": [
+                                                {
+                                                    "@TicketingStatus": "false",
+                                                    "#text": ""
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }, {
+                                    "Air": {
+                                        "@RPH": "0002",
+                                        "@Sanction": "None",
+                                        "@SegType": "Air",
+                                        "@Source": "Sabre",
+                                        "@SourceId": "1",
+                                        "Reservation": {
+                                            "@ArrivalDateTime": "20220322T1710",
+                                            "@ConfirmationNumber": "NVDYZE",
+                                            "@ConfirmingSystemRef": "DCUA",
+                                            "@ConnectionDuration": "02.25",
+                                            "@DepartureDateTime": "20220322T1345",
+                                            "@DomIntlAgencyInd": "D",
+                                            "@DomIntlInd": "D",
+                                            "@E_TicketEligibility": "true",
+                                            "@EndCityTimeZone": "America\/Chicago",
+                                            "@EndDST": "true",
+                                            "@EndGMTTime": "20220322T2210",
+                                            "@EndTerminal": "TERMINAL C",
+                                            "@EndTimeZone": "CDT",
+                                            "@EquipmentName": "Boeing 737-900",
+                                            "@FlightNumber": "313",
+                                            "@MilesFlown": "863",
+                                            "@NumberInParty": "1",
+                                            "@ProviderToken": "2",
+                                            "@ResBookDesigCode": "Y",
+                                            "@SegToken": "UA313YDENIAH20220322T1345",
+                                            "@StartCityTimeZone": "America\/Denver",
+                                            "@StartDST": "true",
+                                            "@StartGMTTime": "20220322T1945",
+                                            "@StartTimeZone": "MDT",
+                                            "@Status": "Y",
+                                            "@StatusCode": "HK",
+                                            "@StopQuantity": "0",
+                                            "DepartureAirport": {
+                                                "@LocationCode": "DEN",
+                                                "#text": ""
+                                            },
+                                            "ArrivalAirport": {
+                                                "@LocationCode": "IAH",
+                                                "#text": ""
+                                            },
+                                            "OperatingAirline": {
+                                                "@Code": "UA",
+                                                "@CompanyShortName": "UNITED AIRLINES",
+                                                "@FlightNumber": "313",
+                                                "#text": ""
+                                            },
+                                            "MarketingAirline": {
+                                                "@Code": "UA",
+                                                "@CompanyShortName": "UNITED AIRLINES",
+                                                "#text": ""
+                                            },
+                                            "ConnectionInfo": {
+                                                "@Ind": "O",
+                                                "#text": ""
+                                            },
+                                            "FlightLeg": [
+                                                {
+                                                    "@DayOfWeek": "2",
+                                                    "@EndAirportCode": "IAH",
+                                                    "@EndAirportName": "Houston George Bush Intercont.\/\/Houston\/\/TX\/\/US",
+                                                    "@EndGMTTime": "20220322T2210",
+                                                    "@EndTime": "20220322T1710",
+                                                    "@StartAirportCode": "DEN",
+                                                    "@StartAirportName": "Denver Intl Apt\/\/Denver\/\/CO\/\/US",
+                                                    "@StartGMTTime": "20220322T1945",
+                                                    "@StartTime": "20220322T1345",
+                                                    "Details": {
+                                                        "@EndTerminal": "TERMINAL C",
+                                                        "@EndTerminalCode": "C",
+                                                        "@Equip": "739",
+                                                        "@EquipmentName": "Boeing 737-900",
+                                                        "@FltDuration": "02.25",
+                                                        "@MilesFlown": "863",
+                                                        "@Smoking": "false",
+                                                        "@SpecialMeal": "false",
+                                                        "#text": ""
+                                                    },
+                                                    "Meals": {
+                                                        "@Services": "Food and drinks to purchase",
+                                                        "Service": [
+                                                            {
+                                                                "@Code": "G",
+                                                                "@Name": "Food and drinks to purchase",
+                                                                "#text": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    "OperatingAirline": {
+                                                        "@AirlineCode": "UA",
+                                                        "@AirlineName": "UNITED AIRLINES",
+                                                        "@FltNo": "313",
+                                                        "#text": ""
+                                                    },
+                                                    "StartAirportLocation": {
+                                                        "@Latitude": "39.861667",
+                                                        "@Longitude": "-104.673056",
+                                                        "#text": ""
+                                                    },
+                                                    "EndAirportLocation": {
+                                                        "@Latitude": "29.984444",
+                                                        "@Longitude": "-95.341389",
+                                                        "#text": ""
+                                                    }
+                                                }
+                                            ],
+                                            "BookingClassAvails": [
+                                                {
+                                                    "@CabinType": "ECONOMY",
+                                                    "BookingClassAvail": [
+                                                        {
+                                                            "@ResBookDesigCode": "Y",
+                                                            "@ResBookDesigStatusCode": "Y",
+                                                            "#text": ""
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "DetailedReservation": {
+                                            "Ticketing": [
+                                                {
+                                                    "@TicketingStatus": "false",
+                                                    "#text": ""
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }, {
+                                    "ItinerarySummary": {
+                                        "@CarCost": "0.0",
+                                        "@CarDays": "0",
+                                        "@CostPerMile": "1.33",
+                                        "@ElapsedTime": "300",
+                                        "@FullFareSavings": "0.00",
+                                        "@FullFareSavingsPct": "0.00",
+                                        "@HotelCost": "0.00",
+                                        "@HotelNights": "0",
+                                        "@HotelNightsNotBooked": "7",
+                                        "@LengthOfTrip": "8",
+                                        "@LowFareSavings": "2377.21",
+                                        "@LowFareSavingsPct": "95.19",
+                                        "@NumberOfPassengers": "1",
+                                        "@Origin": "IAH",
+                                        "@PNRActualMileCount": "1722",
+                                        "@PNRMileCount": "1722",
+                                        "@PaxRef": "1.01",
+                                        "@PotentialHotelNights": "7",
+                                        "@PredominateCarrier": "UA",
+                                        "@PredominateClass": "Y",
+                                        "@PredominateDestination": "{{amexDestination}}",
+                                        "@PredominateFareBasis": "D",
+                                        "@TicketDaysInAdvance": "49.0",
+                                        "@TotalTravelHours": "5.00",
+                                        "@TripEndDate": "20220126T1234",
+                                        "@TripStartDate": "20220123T1234",
+                                        "@WeekendStayOver": "Y",
+                                        "SummaryTableList": {
+                                            "Summary": [
+                                                {
+                                                    "@CarrierString": "UA\/UA",
+                                                    "@ClassString": "Y\/Y",
+                                                    "@FareBasisString": "D\/D",
+                                                    "@ItineraryString": "IAH\/DEN\/IAH",
+                                                    "@Sequence": "1",
+                                                    "#text": ""
+                                                }
+                                            ]
+                                        },
+                                        "ONDList": {
+                                            "OND": [
+                                                {
+                                                    "@OND_Arrival_Flight_Number": "1649",
+                                                    "@OND_Connect_Time": "",
+                                                    "@OND_Cost_Per_Mile": "1.33",
+                                                    "@OND_Depart_Flight_Number": "1649",
+                                                    "@OND_Elapsed_Time": "2.58",
+                                                    "@OND_From_Airport": "IAH",
+                                                    "@OND_Return_Trip": "true",
+                                                    "@OND_Time_In_Air": "2.58",
+                                                    "@OND_To_Airport": "DEN",
+                                                    "#text": ""
+                                                }, {
+                                                    "@OND_Arrival_Flight_Number": "313",
+                                                    "@OND_Connect_Time": "",
+                                                    "@OND_Cost_Per_Mile": "1.33",
+                                                    "@OND_Depart_Flight_Number": "313",
+                                                    "@OND_Elapsed_Time": "2.42",
+                                                    "@OND_From_Airport": "DEN",
+                                                    "@OND_Return_Trip": "true",
+                                                    "@OND_Time_In_Air": "2.42",
+                                                    "@OND_To_Airport": "IAH",
+                                                    "#text": ""
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ],
+                            "PreTravelData": {
+                                "Ticket": [
+                                    {
+                                        "@LowFareSavings": "0",
+                                        "@LowFareSavingsPct": "0",
+                                        "@NormalFareSavings": "0",
+                                        "@NormalFareSavingsPct": "0",
+                                        "@air_fare": "2295.82",
+                                        "@air_ticket": "Y",
+                                        "@carrier_type": "A",
+                                        "@compare_fare": "120.00",
+                                        "@crs": "SAB",
+                                        "@fare_lowest": "120.00",
+                                        "@gross_fare": "2497.21",
+                                        "@original_amount": "2497.21",
+                                        "@pax_sequence": "1",
+                                        "@pnr_locator": "CQMLOW",
+                                        "@reason_code": "LA",
+                                        "@ticket_number": "PRETKT1",
+                                        "@ticket_suffix": "1",
+                                        "@validating_carrier": "UA",
+                                        "#text": ""
+                                    }
+                                ],
+                                "Flight": [
+                                    {
+                                        "@crs": "SAB",
+                                        "@customer_id": "UATD04",
+                                        "@flt_arrive": "03\/15\/2022 13:30",
+                                        "@flt_carrier": "UA",
+                                        "@flt_class": "Y",
+                                        "@flt_class_type": "Y",
+                                        "@flt_currency_code": "USD",
+                                        "@flt_depart": "03\/15\/2022 11:55",
+                                        "@flt_destination": "DEN",
+                                        "@flt_dom_intl": "D",
+                                        "@flt_dom_intl_agency": "D",
+                                        "@flt_elapsed_time": "155",
+                                        "@flt_equipment": "739",
+                                        "@flt_exchange_rate": "1.0000",
+                                        "@flt_fare": "1147.91",
+                                        "@flt_farebasis": "YAA0AFEY",
+                                        "@flt_farebasis_type": "D",
+                                        "@flt_farecalcmethod": "S",
+                                        "@flt_ff_upgrade": "",
+                                        "@flt_meal": "Y",
+                                        "@flt_miles": "861",
+                                        "@flt_next": "2",
+                                        "@flt_number": "1649",
+                                        "@flt_origin": "IAH",
+                                        "@flt_original_amount": "1147.91",
+                                        "@flt_original_currency": "USD",
+                                        "@flt_sequence": "1",
+                                        "@flt_status": "HK",
+                                        "@flt_type": "A",
+                                        "@pax_sequence": "1",
+                                        "@pnr_locator": "CQMLOW",
+                                        "@seg_destination": "DEN",
+                                        "@seg_dom_intl": "D",
+                                        "@seg_dom_intl_agency": "D",
+                                        "@seg_fare": "1147.91",
+                                        "@seg_flag": "Y",
+                                        "@seg_miles": "861",
+                                        "@trp_arrival_date": "03\/15\/2022 13:30",
+                                        "@trp_arrival_flag": "Y",
+                                        "@trp_carrier": "UA",
+                                        "@trp_class": "Y",
+                                        "@trp_class_type": "Y",
+                                        "@trp_destination": "DEN",
+                                        "@trp_dom_intl": "D",
+                                        "@trp_dom_intl_agency": "D",
+                                        "@trp_elapsed_time": "155",
+                                        "@trp_fare": "1147.91",
+                                        "@trp_farebasis": "YAA0AFEY",
+                                        "@trp_farebasis_type": "D",
+                                        "@trp_farecalcmethod": "S",
+                                        "@trp_flag": "Y",
+                                        "@trp_miles": "861",
+                                        "#text": ""
+                                    }, {
+                                        "@crs": "SAB",
+                                        "@customer_id": "UATD04",
+                                        "@flt_arrive": "03\/22\/2022 17:10",
+                                        "@flt_carrier": "UA",
+                                        "@flt_class": "Y",
+                                        "@flt_class_type": "Y",
+                                        "@flt_currency_code": "USD",
+                                        "@flt_depart": "03\/22\/2022 13:45",
+                                        "@flt_destination": "IAH",
+                                        "@flt_dom_intl": "D",
+                                        "@flt_dom_intl_agency": "D",
+                                        "@flt_elapsed_time": "145",
+                                        "@flt_equipment": "739",
+                                        "@flt_exchange_rate": "1.0000",
+                                        "@flt_fare": "1147.91",
+                                        "@flt_farebasis": "YAA0AFEY",
+                                        "@flt_farebasis_type": "D",
+                                        "@flt_farecalcmethod": "S",
+                                        "@flt_ff_upgrade": "",
+                                        "@flt_meal": "Y",
+                                        "@flt_miles": "861",
+                                        "@flt_next": "0",
+                                        "@flt_number": "313",
+                                        "@flt_origin": "DEN",
+                                        "@flt_original_amount": "1147.91",
+                                        "@flt_original_currency": "USD",
+                                        "@flt_sequence": "2",
+                                        "@flt_status": "HK",
+                                        "@flt_type": "A",
+                                        "@pax_sequence": "1",
+                                        "@pnr_locator": "CQMLOW",
+                                        "@seg_destination": "IAH",
+                                        "@seg_dom_intl": "D",
+                                        "@seg_dom_intl_agency": "D",
+                                        "@seg_fare": "1147.91",
+                                        "@seg_flag": "Y",
+                                        "@seg_miles": "861",
+                                        "@trp_arrival_date": "03\/22\/2022 17:10",
+                                        "@trp_arrival_flag": "Y",
+                                        "@trp_carrier": "UA",
+                                        "@trp_class": "Y",
+                                        "@trp_class_type": "Y",
+                                        "@trp_destination": "IAH",
+                                        "@trp_dom_intl": "D",
+                                        "@trp_dom_intl_agency": "D",
+                                        "@trp_elapsed_time": "145",
+                                        "@trp_fare": "1147.91",
+                                        "@trp_farebasis": "YAA0AFEY",
+                                        "@trp_farebasis_type": "D",
+                                        "@trp_farecalcmethod": "S",
+                                        "@trp_flag": "Y",
+                                        "@trp_miles": "861",
+                                        "#text": ""
+                                    }
+                                ],
+                                "Invoice": [
+                                    {
+                                        "@account_number": "00000376652",
+                                        "@actual_miles": "1722",
+                                        "@arc_number": "0",
+                                        "@branch": "",
+                                        "@crs": "SAB",
+                                        "@currency_code": "USD",
+                                        "@customer_id": "UATD04",
+                                        "@dom_intl_agency": "D",
+                                        "@dom_intl_flag": "D",
+                                        "@exchange_rate": "1.0000",
+                                        "@fare_air": "2295.82",
+                                        "@fare_compare": "120.00",
+                                        "@fare_full": "0.0",
+                                        "@fare_gross": "2497.21",
+                                        "@fare_lowest": "120.0",
+                                        "@invoice_date": "01\/01\/1900",
+                                        "@original_amount": "2497.21",
+                                        "@original_currency": "USD",
+                                        "@pax_count": "1",
+                                        "@pax_name": "BENNINGTON\/JACKIE",
+                                        "@pax_sequence": "1",
+                                        "@pax_type": "ADT",
+                                        "@pnr_locator": "CQMLOW",
+                                        "@rate_calc_method": "*",
+                                        "@reason_code": "LA",
+                                        "@tax": "201.39",
+                                        "@ticket_number": "PRETKT",
+                                        "@ticket_prepaid": "N",
+                                        "@ticket_suffix": "",
+                                        "@total_miles": "1722",
+                                        "@validating_airline": "UA",
+                                        "@vat": "0",
+                                        "#text": ""
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "Remarks": {
+                        "MIRemarkList": {
+                            "UdidRemarkList": {
+                                "Remark": [
+                                    {
+                                        "@Prefix": "2",
+                                        "@ProviderToken": "014",
+                                        "#text": "LOCATION"
+                                    }
+                                ]
+                            },
+                            "GovtRemarkList": {
+                                "Remark": [
+                                    {
+                                        "@Prefix": "5",
+                                        "@ProviderToken": "006",
+                                        "#text": "343-23232"
+                                    }
+                                ]
+                            },
+                            "LowFare": {
+                                "@Amount": "120.00",
+                                "@ReasonCode": "LA",
+                                "#text": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
