@@ -17,3 +17,14 @@ function maxProfit(prices) {
   return maxProfit;
 }
 console.log(maxProfit([7, 1, 5, 3, 6, 4]));
+
+function syncNetworkRequest(url) {
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', url, false);
+  xhr.send();
+  return xhr.responseText;
+}
+
+ console.log(syncNetworkRequest('https://example.com/data'));
+// response()
+// console.log(response);
