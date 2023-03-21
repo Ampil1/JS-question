@@ -12,7 +12,7 @@ function checkstack(erxp){
        }
        if(stack.length==0) return  "invalid";
        for(let j=0;j<stack.length;i++){
-           if(j== "[" || )
+           if(j== "[" || j=="(" ||)
        }
     }
 
