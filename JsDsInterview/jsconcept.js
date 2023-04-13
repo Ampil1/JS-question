@@ -1,6 +1,4 @@
 function a() {
-
-
   setImmediate(function A() {
     console.log("1st immediate");
   });

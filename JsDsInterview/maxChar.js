@@ -25,4 +25,4 @@ function maxChar(str) {
   return {result,length:max};
 }
 
-console.log(maxChar("abccccd"));
+console.log(maxChar("apple1231111"));

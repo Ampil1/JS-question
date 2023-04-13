@@ -16,15 +16,16 @@ function maxProfit(prices) {
   }
   return maxProfit;
 }
-console.log(maxProfit([7, 1, 5, 3, 6, 4]));
+console.log(maxProfit([7, 1, 5, 3, 6, 4]));//5
+console.log(maxProfit([100 ,180 ,260 ,310 ,40 ,535 ,695]));
 
-function syncNetworkRequest(url) {
-  const xhr = new XMLHttpRequest();
-  xhr.open('GET', url, false);
-  xhr.send();
-  return xhr.responseText;
-}
+// function syncNetworkRequest(url) {
+//   const xhr = new XMLHttpRequest();
+//   xhr.open('GET', url, false);
+//   xhr.send();
+//   return xhr.responseText;
+// }
 
- console.log(syncNetworkRequest('https://example.com/data'));
+//  console.log(syncNetworkRequest('https://example.com/data'));
 // response()
 // console.log(response);

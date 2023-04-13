@@ -23,17 +23,17 @@ O/P - "A Small Sentence"
  */
 
 function sentanceCaps(str) {
-    let result = str[0].toUpperCase();
-    for(let i=1; i<str.length; i++){
-        //check for space on previous position
-        if(str[i-1] === " "){
-          result += str[i].toUpperCase(); 
-        } else{
-          result += str[i];
-        }
-      }
-    
-      return result;
+  let result = str[0].toUpperCase();
+  for (let i = 1; i < str.length; i++) {
+    //check for space on previous position
+    if (str[i - 1] === " ") {
+      result += str[i].toUpperCase();
+    } else {
+      result += str[i];
+    }
+  }
+
+  return result;
 }
 
-console.log(sentanceCaps('a small sentence'))
+console.log(sentanceCaps("a small sentence"));
